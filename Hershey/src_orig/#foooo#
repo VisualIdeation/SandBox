@@ -1,0 +1,45 @@
+gandalf evlspiff-430% make fhtext.o
+        CC -O -float -DFONTLIB=\"../lib\" -c fhtext.c
+"fhtext.c", line 9: warning: old style definition of hsetpath_() (anachronism)
+"fhtext.c", line 26: warning: old style definition of hsetpa_() (anachronism)
+"fhtext.c", line 43: warning: old style definition of hfont_() (anachronism)
+"fhtext.c", line 60: warning: old style definition of htextsize_() (anachronism)
+"fhtext.c", line 70: warning: old style definition of htexts_() (anachronism)
+"fhtext.c", line 79: warning: old style definition of hboxtext_() (anachronism)
+"fhtext.c", line 86: warning:  p not used
+"fhtext.c", line 92: warning: no value returned from hboxtext_() (anachronism)
+"fhtext.c", line 97: warning: old style definition of hboxte_() (anachronism)
+"fhtext.c", line 104: warning:  p not used
+"fhtext.c", line 110: warning: no value returned from hboxte_() (anachronism)
+"fhtext.c", line 115: warning: old style definition of hboxfit_() (anachronism)
+"fhtext.c", line 120: warning: no value returned from hboxfit_() (anachronism)
+"fhtext.c", line 125: warning: old style definition of hboxfi_() (anachronism)
+"fhtext.c", line 130: warning: no value returned from hboxfi_() (anachronism)
+"fhtext.c", line 136: warning: old style definition of htextang_() (anachronism)
+"fhtext.c", line 146: warning: old style definition of htexta_() (anachronism)
+"fhtext.c", line 155: warning: old style definition of hdrawchar_() (anachronism)
+"fhtext.c", line 159: warning: no value returned from hdrawchar_() (anachronism)
+"fhtext.c", line 164: warning: old style definition of hdrawc_() (anachronism)
+"fhtext.c", line 168: warning: no value returned from hdrawc_() (anachronism)
+"fhtext.c", line 173: warning: old style definition of hcharstr_() (anachronism)
+"fhtext.c", line 179: warning:  p not used
+"fhtext.c", line 184: warning: no value returned from hcharstr_() (anachronism)
+"fhtext.c", line 189: warning: old style definition of hchars_() (anachronism)
+"fhtext.c", line 195: warning:  p not used
+"fhtext.c", line 200: warning: no value returned from hchars_() (anachronism)
+"fhtext.c", line 278: warning: old style definition of hgetfontsize_() (anachronism)
+"fhtext.c", line 288: warning: old style definition of hgetfs_() (anachronism)
+"fhtext.c", line 298: warning: old style definition of hgetcharsize_() (anachronism)
+"fhtext.c", line 309: warning: old style definition of hgetch_() (anachronism)
+"fhtext.c", line 320: warning: old style definition of hfixedwidth_() (anachronism)
+"fhtext.c", line 330: warning: old style definition of hfixed_() (anachronism)
+"fhtext.c", line 340: warning: old style definition of hcentertext_() (anachronism)
+"fhtext.c", line 350: warning: old style definition of hcente_() (anachronism)
+"fhtext.c", line 360: warning: old style definition of hrightjustify_() (anachronism)
+"fhtext.c", line 370: warning: old style definition of hright_() (anachronism)
+"fhtext.c", line 380: warning: old style definition of hleftjustify_() (anachronism)
+"fhtext.c", line 390: warning: old style definition of hleftj_() (anachronism)
+"fhtext.c", line 418: warning: old style definition of hstrlength_() (anachronism)
+"fhtext.c", line 424: warning:  p not used
+"fhtext.c", line 436: warning: old style definition of hstrle_() (anachronism)
+gandalf evlspiff-431% 

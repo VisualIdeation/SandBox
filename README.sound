@@ -1,0 +1,35 @@
+6/14/94
+
+[NOTE: This version of the distribution doesn't include the sound
+files since the sound feature has not been tested in a long time.  BS]
+
+Note on sound in the SANDBOX
+
+Sounds are 'generated' by some of the instruments
+  thermometer - continuous cicada sound
+  wind sock - continuous whoosh sound
+  beaker - one of two drip sounds
+
+and a successful use of the mouse button has a thunk sound.
+
+All of these sounds are stored in aiff format in the SANDBOX_sounds
+directory. The thunk, drip sounds are brought in from disc and played
+when needed - the thunk when the button is used in an operation and the
+drip when a beaker's water level increases. The cicada and whoosh sounds
+are constantly running and the cicada's amplitude and the whoosh's
+pitch are determined by averaging all the values of the thermometers
+and windsocks in the experiment respectively. If there are no thermometers
+or windsocks placed in the experiment then the amplitude and pitch are
+set to zero respectively.
+
+I think I have the general format of using the sounds figured out, and
+currently plan to just get some better sounds - particularly for the wind
+and the cicadas. While there are certainly more opportunities for sound
+in this demo I really don't want to overload it - the cicadas the whoosh
+the drips and the thunks all going at once may be too much as it is ...
+but any suggestions are welcome.
+
+Most of the code for the sound is in SANDBOX_demo.c either in main or
+in the sound function. The button sound is performed in SANDBOX_data.c.
+
+Andy J.

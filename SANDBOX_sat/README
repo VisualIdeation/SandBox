@@ -1,0 +1,4 @@
+
+To display the images with ImageMagick:
+	% display -depth 8 -size 512x512 gray:sat{0,1,2,3,4,5,6,7}.raw
+

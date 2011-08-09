@@ -1,0 +1,16 @@
+
+Things to fix to get Sandbox to work in it's former glory:
+
+	- get rid of OpenGL error: "Invalid Enumerated argument -- 1280"
+	- use spheres for Sun and Moon
+	- DONE: fix textures
+	- fix lighting
+	- fix speed
+
+Optional (but probably beneficial fixes)
+	- use FreeVR billboarding for orienting text (instead of
+		doing it by hand).
+	- tie speed to that of the computer
+	- clean up all the OGLXXX stuff from the toogl script
+	- completely clean the code up (ie. all the rest of the stuff).
+

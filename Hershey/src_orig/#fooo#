@@ -1,0 +1,2 @@
+"htext.c", line 663: warning: old style definition of hfixedwidth() (anachronism)
+"htext.c", line 681: warning: old style definition of htextang() (anachronism)

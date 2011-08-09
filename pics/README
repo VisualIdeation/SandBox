@@ -1,0 +1,9 @@
+
+To display/convert these images, use:
+	% display -depth 8 -size 384x256 gray:site1463.bw
+
+or for the other files:
+	% display -depth 8 -size 256x256 gray:sitepic.bw -- NOTE: this is really site2328.bw cropped to 256x256
+	% display -depth 8 -size 256x256 gray:SANDBOX_moisture.raw
+	% display -depth 8 -size 224x200 gray:SANDBOX_aug87.raw
+

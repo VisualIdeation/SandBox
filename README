@@ -1,0 +1,84 @@
+6/15/94
+
+Andrew Johnson
+Computer Science Department
+Wayne State University
+Detroit, MI 48202
+[NOTE: Andy is now at the Electronic Visualization Lab at UIC]
+
+[OpenGL & FreeVR ports by Bill Sherman (thus far), 2005]
+
+
+[NOTE: for the moment you'll have to set the directory that
+contains the FreeVR library in the Makefile.  Then ...]
+
+Type "make" to make the application ("sandbox").  If necessary, it
+should also compile the hershey font library (ie. the first time you
+compile things).
+
+To run the program just type "sandbox".  If any of the datafile are
+not found the program will abort the load.  However, all the data
+should be included in this distribution.
+
+
+Once the demo is running and you are in the environment the wand buttons
+have the following uses:
+	left button: not used
+	middle button: grab/drop an instrument, select from menus
+	right button: activate/deactivate options, turn menus on/off
+A 3D cross shows the position of the wand.
+
+All of the button operations in this demo are simple clicks, no clicking
+and holding the button down.
+
+
+The left wall has a calendar. Moving the wand over to the calendar will
+highlight specific days. The middle button selects/desects days. The current
+virtual day (shown in red) cycles through the set of currently selected
+days (shown in blue.)  The application begins with some dates pre-selected.
+
+
+On the right side of the front wall is the instrument pallet. Moving the
+wand over to the instrument pallet will highlight specific instruments.
+The middle button selects (grabs) an instrument. With an instrument in hand
+all of the sights where that instrument can be placed are highlighted in
+yellow.  Moving the wand over one of those sites turns the site red. Pressing
+the middle Button again then drops the instrument onto that site. Similarly
+The middle button can be used to pick up an instrument from a highlighted site.
+
+The instruments are (in order)
+	Thermometer	Satellite	No Instrument
+	Wind Sock	Airplane	Paper/Pencil
+	Beaker		Helicopter	Camera
+
+
+The left side of the front wall shows the user's position and the wand's
+position in the cave as well as a graph of the past 6 hours worth of
+measurements from the instruments.  Depending on the speed of the machine
+this demo is being run on, the hours may be zipping by pretty quickly.
+
+
+The user can also move the wand over to the sun or moon to select it
+and activate its menu using the right button. This allows the user to
+alter the behaviour of time by clicking on the appropriate square button
+using the middle button of the wand.  The right button then dismisses the menu.
+
+Moving the wand near the plane and clicking the right button will bring up
+the menu for the plane. This allows the user to alter the appearance of the
+plane by clicking on the appropriate square button using the middle button
+of the wand.  The right button then dismisses the menu.
+
+If the user places the satellite instrument into the sky the user can
+activate its menu by highlighting the satellite and clicking the right
+button.  This allows the user to change which satellite image is overlayed
+on the plane by clicking on the appropriate square button using the middle
+button of the wand.  The right button then dismisses the menu.
+
+IF the user moves the wand over an instrument on the plane (highlighting
+the site), clicking the right button will bring up the menu for that instrument.
+This allows the user to change the settings on the instrument using the
+left button of the wand.  The right Button dismisses the menu.
+
+If you have any questions:
+aej@evl.uic.edu
+
